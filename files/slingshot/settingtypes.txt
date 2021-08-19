@@ -1,0 +1,25 @@
+
+# Use old 16x16 textures.
+slingshot.old_textures (Old slingshot textures) bool false
+
+# Value of these items will be added to slingshot attack when thrown.
+slingshot.ammos (Registered ammos) string default:mese_crystal=5
+
+# Enables/Disables wear when used.
+enable_weapon_wear (Weapon wear) bool true
+
+# Log extra messages.
+log_mods (Log mods) bool false
+
+# Log extra debug messages.
+enable_debug_mods (Debug mods) bool false
+
+# Determines if game is being run in creative mode.
+creative_mode (Creative) bool false
+
+# Time in seconds for item entity (dropped items) to live.
+# Setting it to -1 disables the feature.
+item_entity_ttl (Thrown item duration) int 890 -1
+
+# Determines if PVP is enabled.
+enable_pvp (Enable PVP) bool true

@@ -1,0 +1,5 @@
+
+TODO:
+- possibly convert to use a throwing API
+- fix setting default entity duration value (item_entity_ttl) to 900, same as minetest.conf.example
+- don't use "on_globalstep" to ensure hit

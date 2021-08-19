@@ -1,0 +1,8 @@
+# textdomain:slingshot
+
+# Translators:
+
+
+Rubber Band=
+Wooden Slingshot=
+Iron Slingshot=

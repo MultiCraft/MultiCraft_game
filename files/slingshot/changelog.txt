@@ -1,0 +1,46 @@
+
+v0.4
+----
+- added "textdomain" line to localization template
+- added Spanish translation
+
+
+v0.3
+----
+- added new textures
+- rubber band item is registered even if technic not available
+- items can be registered as ammos with custom attack values
+- slingshots can be repaired with workbench if "xdecor.register_repairable" method available
+- craft recipes & aliases no longer registered with slingshot registration
+- technic:rubber outputs 6 rubber bands instead of 10
+- detect automatically if rubber band can be used instead of setting slingshot.require_rubber_band
+- added localization support
+- "default" changed to optional dependency required for craft recipe only
+
+
+v0.2
+----
+- custom images can be used for registering new slingshot
+- use damage groups from slingshot registration to do damage
+- changed slingshot damage groups:
+	- wood: fleshy=1
+	- iron: fleshy=3
+- wear is disabled in creative mode
+- ammo does not depelete in creative mode
+
+
+v0.1
+----
+- forked from AiTechEye's hook mod v10 ( https://forum.minetest.net/viewtopic.php?t=13634 ) (2017-04-09) CC0
+- removed hook code
+- changed license to MIT
+- created rubber band item for craft recipes (requires technic)
+- added wooden slingshot
+- fixed entities not dropping items when killed with slingshot
+- cannot pickup items while holding slingshot
+- set wear rate for slingshots
+- added setting to enable/disable wear
+- items are only thrown from slot to right
+- replaced deprecated "setting_get" methods
+- set "wield_image" value
+- added API method for registering custom slingshots
